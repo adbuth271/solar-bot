@@ -1,5 +1,6 @@
-python-telegram-bot==21.6
+python-telegram-bot[webhooks]==21.6
 pillow
 requests
 numpy==1.26.4
 tensorflow==2.16.1
+
