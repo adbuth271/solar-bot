@@ -20,7 +20,7 @@ LOG_FILE = "alerts_log.csv"
 CONF_THRESHOLD = 0.60
 
 # IMPORTANT: get from Render environment
-BOT_TOKEN = os.getenv("8491303460:AAH_O-Sd1m6hyCG2HMX5hIG9QHiiEzTZjTc")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 ALLOWED_CHAT_ID = os.getenv("7428489851", None)
 
@@ -167,4 +167,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
